@@ -14,6 +14,7 @@ function Navbar() {
 	};
 
 	return (
+		
 		<header>
 			<a href="#">
             <img src={logo} alt="Sip N Play Logo" className="navbar-logo-img" />
@@ -36,18 +37,20 @@ function Navbar() {
 				<FaBars />
 			</button>
              <div className="navbar-icons">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sipnplaynyc/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="icon" />
           </a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/sipnplaynyc/" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="icon" />
           </a>
-          <a href="mailto:your-email@example.com">
+          <a href="mailto:sipnplaynyc@gmail.com">
             <FaEnvelope className="icon" />
           </a>
         </div>
 		</header>
 
+		
+		
         
 	);
 }
