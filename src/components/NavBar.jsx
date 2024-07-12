@@ -16,7 +16,7 @@ function Navbar() {
 	return (
 		
 		<header>
-			<a href="#">
+			<a href="NavBar.jsx">
             <img src={logo} alt="Sip N Play Logo" className="navbar-logo-img" />
           </a>
 			<nav ref={navRef}>
