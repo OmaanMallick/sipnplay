@@ -1,0 +1,57 @@
+/* src/FooterCircles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px;
+  position: fixed;
+  bottom: -100px;
+  width: 100%;
+  transition: bottom 1s;
+}
+
+footer:hover {
+  bottom: -10px;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 0 15px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: transparent; /* Initially, text is transparent */
+  cursor: pointer;
+  text-align: center;
+  background-size: cover; /* Ensure background image covers the entire circle */
+  transition: background-color 0.5s, color 0.5s, background-image 0.5s;
+}
+
+.circle:hover {
+  background-color: transparent; /* Background color disappears */
+  background-image: none; /* Background image disappears */
+  color: #333; /* Text becomes visible */
+}
+
+.circle.circle1 {
+  background-color: #ffffff;
+  background-image: url(../assets/images/blb.ico);
+} 
+
+.circle.circle2 {
+  background-color: aqua;
+  background-image: url(../assets/images/blb.ico);
+}
+
+.circle.circle3 {
+  background-color: bisque;
+  background-image: url(../assets/images/blb.ico);
+}
