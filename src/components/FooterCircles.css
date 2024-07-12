@@ -36,11 +36,27 @@ footer:hover {
 }
 
 .circle:hover {
-  background-color: transparent; /* Background color disappears */
   background-image: none; /* Background image disappears */
   color: #333; /* Text becomes visible */
 }
 
+.circle1:hover {
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.circle2:hover {
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.circle3:hover {
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+}
 .circle.circle1 {
   background-color: #ffffff;
   background-image: url(../assets/images/blb.ico);
@@ -48,10 +64,10 @@ footer:hover {
 
 .circle.circle2 {
   background-color: aqua;
-  background-image: url(../assets/images/blb.ico);
+  background-image: url(../assets/images/nsplsh.ico);
 }
 
 .circle.circle3 {
   background-color: bisque;
-  background-image: url(../assets/images/blb.ico);
+  background-image: url(../assets/images/player.ico);
 }
