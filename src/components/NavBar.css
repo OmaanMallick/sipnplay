@@ -43,11 +43,11 @@ nav a {
   }
   
   .navbar-icons .icon:hover {
-	color: #ccc;
+	color: #905b1a;
   }
 
 nav a:hover {
-	color: var(--secondaryColor);
+	color: #905b1a;
 }
 
 header .nav-btn {
